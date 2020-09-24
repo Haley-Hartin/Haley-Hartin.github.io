@@ -1,14 +1,17 @@
 .title{ 
      margin-bottom: 10px; 
      text-align:center; 
-     width: 700px; 
+     width: 1300px; 
      height: 65px;
      color:blue; 
      border: solid black 2px; 
      font-size: 200%;
-     margin-left: 10px;
+     margin-left: 100px;
    } 
 
+.content{
+  width: 100%;
+}
 
 
  
@@ -19,9 +22,9 @@
          background-color:#EEF7F8; 
          color: black; 
          border: solid black 2px; 
-         width:250px;
-         height: 75px;
-         font-size: 16px;
+         width:400px;
+         height: 100px;
+         font-size: 20px;
              
          } 
   
@@ -29,10 +32,10 @@
          { 
          background-color:white; 
          border: solid black 2px; 
-         width:700px;
+         width:1100px;
          height: 60px;
-         margin-left: 10px;
-         font-size: 16px;
+         margin-left: 40px;
+         font-size: 20px;
              
          } 
 

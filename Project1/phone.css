@@ -1,7 +1,7 @@
 .title{ 
      margin-bottom: 10px; 
      text-align:center; 
-     width: 1000px; 
+     width: 800px; 
      height: 100px;
      color:blue; 
      border: solid black 2px; 
@@ -18,7 +18,7 @@
          background-color:#80ffbf; 
          color: black; 
          border: solid black 2px; 
-         width:300px;
+         width:200px;
          height: 200px;
          font-size: 50px;
              
@@ -28,7 +28,7 @@
          { 
          background-color:white; 
          border: solid black 2px; 
-         width:900px;
+         width:600px;
          height: 100px;
          margin-left: 10px;
          font-size: 30px;

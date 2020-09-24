@@ -1,11 +1,11 @@
 .title{ 
      margin-bottom: 10px; 
      text-align:center; 
-     width: 900px; 
-     height: 65px;
+     width: 1000px; 
+     height: 100px;
      color:blue; 
      border: solid black 2px; 
-     font-size: 200%;
+     font-size: 50px;
      margin-left: 30px;
    } 
 
@@ -15,12 +15,12 @@
   
          input[type="button"] 
          { 
-         background-color:green; 
+         background-color:#80ffbf; 
          color: black; 
          border: solid black 2px; 
          width:300px;
-         height: 20px;
-         font-size: 30px;
+         height: 200px;
+         font-size: 50px;
              
          } 
   
@@ -28,9 +28,9 @@
          { 
          background-color:white; 
          border: solid black 2px; 
-         width:5px;
-         height: 60px;
+         width:900px;
+         height: 100px;
          margin-left: 10px;
-         font-size: 16px;
+         font-size: 30px;
              
          } 

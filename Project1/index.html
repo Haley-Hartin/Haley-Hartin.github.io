@@ -1,5 +1,6 @@
 <html> 
    <head> 
+    <title>A calculator that works with with only keyboard input and only mouse input</title>
     <link rel="stylesheet" media="screen and (max-width: 1150px)" href="phone.css" />
     <link rel="stylesheet" media="screen and (min-width: 1150px)" href="monitor.css" />
     <script> 
@@ -30,7 +31,9 @@
    <!-- create table -->
    <body> 
       <div class = content>
-          <div class = title >Accessible Calculator</div> 
+          <header>
+          <h1 class = title >Accessible Calculator</h1>
+          </header>
           <table border="1"> 
              <tr> 
    
@@ -52,7 +55,7 @@
              <tr> 
                 <!-- create button and assign value to each button -->
                 <!-- dis("1") will call function dis to display value -->
-                <td><input type="button" value="1" onclick="dis('1')" class = "table"/> </td> 
+                <td><input type="button" value="1" onclick="dis('1')" /> </td> 
                 <td><input type="button" value="2" onclick="dis('2')"/> </td> 
                 <td><input type="button" value="3" onclick="dis('3')"/> </td> 
                 <td><input type="button" value="/" onclick="dis('/')"/> </td> 

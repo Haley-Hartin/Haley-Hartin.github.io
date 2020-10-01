@@ -1,12 +1,18 @@
+body {
+  background-color: #E4E7E7;
+   padding: 15px 35px;
+}
+
 .title{ 
      margin-bottom: 10px; 
      text-align:center; 
      width: 800px; 
      height: 100px;
-     color:blue; 
+     color:white; 
      border: solid black 2px; 
      font-size: 50px;
      margin-left: 30px;
+     background-color:#535675;
    } 
 
 
@@ -14,8 +20,8 @@
   
          input[type="button"] 
          { 
-         background-color:#80ffbf; 
-         color: black; 
+         background-color:#535675; 
+         color: white; 
          border: solid black 2px; 
          width:200px;
          height: 200px;

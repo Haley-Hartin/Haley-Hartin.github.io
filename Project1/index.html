@@ -23,6 +23,7 @@
          { 
              document.getElementById("result").value = "" 
          } 
+        
       </script> 
 
    </head> 
@@ -32,7 +33,19 @@
           <div class = title >Accessible Calculator</div> 
           <table border="1"> 
              <tr> 
-                <td colspan="3"><input type="text" id="result" class = "table"/></td> 
+   
+                <td colspan="3"><input type="text" id="result" class = "table" onclick="solve()"/></td>
+                 <script>
+                    var input = document.getElementById("result");
+                    input.addEventListener("keyup", function(event) {
+                      if (event.keyCode === 13) {
+                       event.preventDefault();
+                       document.getElementById("result").click();
+                      }
+                    });
+                   </script>
+      
+         
                 <!-- clr() function will call clr to clear all value -->
                 <td><input type="button" value="c" onclick="clr()"/> </td> 
              </tr> 

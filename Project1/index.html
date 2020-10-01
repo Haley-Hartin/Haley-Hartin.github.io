@@ -1,6 +1,6 @@
 <html> 
    <head> 
-    <title>A calculator that works with with only keyboard input and only mouse input</title>
+    <title lang="en" >A calculator that works with with only keyboard input and only mouse input</title>
     <link rel="stylesheet" media="screen and (max-width: 1150px)" href="phone.css" />
     <link rel="stylesheet" media="screen and (min-width: 1150px)" href="monitor.css" />
     <script> 
@@ -32,12 +32,12 @@
    <body> 
       <div class = content>
           <header>
-          <h1 class = title >Accessible Calculator</h1>
+          <h1 lang="en" class = title >Accessible Calculator</h1>
           </header>
           <table border="1"> 
              <tr> 
    
-                <td colspan="3"><input type="text" id="result" class = "table" onclick="solve()"/></td>
+                <td colspan="3"><input type="text" id="result" class = "table" onclick="solve()" label = "result"/></td>
                  <script>
                     var input = document.getElementById("result");
                     input.addEventListener("keyup", function(event) {

@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>
+			Calculator Demo
+		</title>
+		<link rel="stylesheet" href="calculator.css" type="text/css">
+	</head>
+	<body>
+		<div id="calculator">
+			<h1>calc U l8r</h1>
+			<div class="calculator_row">
+				<input id="number_input">
+			</div>
+			<div class="calculator_row">
+				<button id="button7" class="calcButton row1 col1">7</button>
+				<button id="button8" class="calcButton row1 col2">8</button>
+				<button id="button9" class="calcButton row1 col3">9</button>
+				<button id="buttonDivide" class="calcButton row1 col4 function">/</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button4" class="calcButton row2 col1">4</button>
+				<button id="button5" class="calcButton row2 col2">5</button>
+				<button id="button6" class="calcButton row2 col3">6</button>
+				<button id="buttonMultiply" class="calcButton row2 col4 function">*</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button1" class="calcButton row3 col1">1</button>
+				<button id="button2" class="calcButton row3 col2">2</button>
+				<button id="button3" class="calcButton row3 col3">3</button>
+				<button id="buttonAdd" class="calcButton row3 col4 function">+</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button0" class="calcButton row4 col1">0</button>
+				<button id="buttonClear" class="calcButton row4 col2 meta">C</button>
+				<button id="buttonEquals" class="calcButton row4 col3 meta">=</button>
+				<button id="buttonSubtract" class="calcButton row4 col4 function">-</button>
+			</div>
+		</div>
+		<div id="comments">
+			<h2>About this app</h2>
+           
+            
+			<ul>
+				<li>This calculator will take input by clicking on the buttons, or only keyboard input. The keys "a", "w", "s" and "z" will navigate the claculator. The directions are as follows:</li>
+                 <ul>
+                    <li>up: "w" key</li>
+                    <li>down: "z" key</li>
+                    <li>right: "s" key</li>
+                    <li>left: "a" key</li>
+                    <li>select: enter/return key</li>
+                 </ul>
+				<li>To test the UI, I did a test on a 5-key UI and 3-key UI. The 5-key UI is described above. The 3-Key UI uses only the "s" and "a" keys to navigate left/right and the enter/return key to select. The input equations for the experiments are as follows:</li>
+                  <ul>
+                    <li>5*4+3</li>
+                    <li>10/5-2</li>
+                    <li>7+68-12/2</li>
+                    <li>9/3+4+15-1</li>
+                    <li>7+14/3+2</li>
+                 </ul>
+				<li>After 4 trials of each UI, here were the test results:</li>
+                <ul>
+                    <li>5 button UI- avg time: 2 minutes 44 seconds, errors made: 6</li>
+                    <li>3 button UI- avg time: 2 minutes 16 seconds, errors made: 1</li>
+                 </ul>
+                <li>Conclusion: I was surprised that the 3 button UI had a quicker completion time on average. In general, a 5 button UI should have a quicker completion time. I think the learning curve for the 5 button UI may have contibuted to its slow completion time. Until you get the hang of it, it takes a while to remember which key is is what. On the other hand, with the 3 button UI, you only have to remember two keys to navigate, so you can react quicker. Over time, I believe the 5 button UI would result in a quicker completion time, but for this limited trial experiment, that was not the case. </li>
+			</ul>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="calculator.js" type="text/javascript"></script>
+	</body>
+</html>
